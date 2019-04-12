@@ -1,8 +1,10 @@
 FROM debian:jessie
 
-MAINTAINER Azem Abdi #Unterhalter des Dokumentes
+#Unterhalter des Dokumentes
+MAINTAINER Azem Abdi
 
-ENV TS_VERSION LATEST #ENV steht für Environment. Hier wird die Codierung definiert und die Teamspeak Version aktualisiert.
+#ENV steht für Environment. Hier wird die Codierung definiert und die Teamspeak Version aktualisiert.
+ENV TS_VERSION LATEST
 ENV LANG C.UTF-8
 
 RUN apt-get update \
