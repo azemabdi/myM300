@@ -14,8 +14,8 @@
 [4]: https://docs.docker.com/samples/library/teamspeak/
 [5]: https://docs.docker.com/compose/install/
 
-Alle Unterlagen befinden sich im [BSCW-M300][3] Folder. Noch mehr Informationen finden sie im [Fächertagebuch][1] vom M300.
-Dieses Dokument wurde mit [Markdown][2] geschrieben
+Alle Unterlagen befinden sich im [BSCW-M300][2] Folder. Noch mehr Informationen finden Sie im [Fächertagebuch][1] vom M300.
+Dieses Dokument wurde mit Markdown geschrieben
 
 ### Nützliche Links
 * [TBZ][1]
@@ -26,7 +26,7 @@ Dieses Dokument wurde mit [Markdown][2] geschrieben
 
 ## Netzwerkplan
 
-![Image](bilder/netzwerkplan.jpeg)
+![Image](bilder/netzwerkplan.png)
 
 ## Vorbereitung
 ---

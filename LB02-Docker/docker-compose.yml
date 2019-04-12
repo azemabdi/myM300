@@ -1,15 +1,15 @@
-version: '3.7'
+version: '3.7' #Version von Docker-Compose
 services:
   tslb02:
-    image: tslb02
-    ports:
+    image: tslb02 #Name des Docker-Images
+    ports: #Ports welche nach Aussen geöffnet werden
       - "9987:9987/udp"
       - "10012:10012"
       - "30034:30034"
       - "41144:41144"
-    environment:
+    environment: #TeamSpeak3-Lizenz wird hiermit akzeptiert
       - TS3SERVER_LICENSE=accept
-    volumes:
+    volumes: #Workdir-Ordner: Hier wird gearbeitet
       - ts-data:/data
 
 volumes:
